@@ -2,6 +2,8 @@
 
 Este projeto consiste em uma página web informativa sobre os impactos negativos das queimadas no meio ambiente e na saúde humana. Através de uma abordagem clara e visualmente acessível, o conteúdo é dividido em seções que exploram os problemas causados pelas queimadas, suas consequências e as ações necessárias para mitigar seus efeitos.
 
+![Imagem sobre as queimadas](amazonia.jpg)
+
 ## Estrutura do Projeto
 
 ### Tecnologias Utilizadas:
