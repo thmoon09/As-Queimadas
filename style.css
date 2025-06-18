@@ -1,17 +1,17 @@
+/* Importação das fontes */
 @import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
 
 /* Variáveis */
 :root {
-    --primary-color: #2a0483;
-    --secondary-color: #b34cee;
-    --text-color: #10ccf7;
-    --background-color: #F2E3D5;
-    --button-hover: #0a0140;
+    --primary-color: #6a0dad; /* Roxo principal */
+    --secondary-color: #9b4d96; /* Roxo médio */
+    --tertiary-color: #b97fb6; /* Roxo claro */
+    --text-color: #f0e6f7; /* Cor clara para texto */
+    --background-color: #f8f0fc; /* Fundo suave e claro */
+    --button-hover: #4a0072; /* Roxo escuro para o hover do botão */
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
 }
-
-/* código omitido *//* código omitido */
 
 /* Reset */
 * {
@@ -28,16 +28,60 @@ body {
     line-height: 1.6;
 }
 
+/* Estilos de título */
 h3 {
     margin-top: 25px;
+    color: var(--primary-color);
 }
 
+/* Estilos para parágrafos */
 p {
     margin-top: 20px;
+    color: var(--secondary-color);
 }
 
+/* Estilo das imagens */
 img {
     max-width: 90%;
+    border-radius: 8px; /* Adicionando bordas arredondadas nas imagens */
 }
 
-/* código omitido */
+/* Estilo de botões */
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: var(--button-hover);
+    transform: scale(1.05); /* Efeito de aumentar o botão */
+}
+
+/* Link com efeito de cor */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* Estilo do rodapé */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Código omitido */
